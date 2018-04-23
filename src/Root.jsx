@@ -4,7 +4,7 @@ import T from './i18n/T';
 
 import Options from './Options/Options';
 import DiagramWithLegend from './Diagram/DiagramWithLegend';
-import GitHub from './GitHub/GitHub';
+import GitHub from './Github/Github';
 
 /**
  * Workaround for Google Chrome bug that causes grid to jump when hovered
@@ -44,7 +44,7 @@ export default class Root extends Component {
 
     return (
       <div ref={ref => fixChromeGridSizingBug(ref)}>
-        <h1><T>React lifecycle methods diagram</T></h1>
+        <h1 className="hidden"><T>React lifecycle methods diagram</T></h1>
         <Options
           advanced={advanced}
           toggleAdvanced={this.toggleAdvanced}
