@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import T from './i18n/T';
 
-import Options from './Options';
-import DiagramWithLegend from './DiagramWithLegend';
-import GitHub from './GitHub';
+import Options from './Options/Options';
+import DiagramWithLegend from './Diagram/DiagramWithLegend';
+import GitHub from './GitHub/GitHub';
 
 /**
  * Workaround for Google Chrome bug that causes grid to jump when hovered
